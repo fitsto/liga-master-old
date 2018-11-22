@@ -1,0 +1,16 @@
+{
+  "name": "liga-master",
+  "version": "1.0.0",
+  "description": "administracion de ligas deportivas",
+  "main": "server.js",
+  "scripts": {
+    "star": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe Toro",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
