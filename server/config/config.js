@@ -20,7 +20,7 @@ let urlDB;
 if (process.env.NODE_ENV === 'dev') {
     urlDB = 'mongodb://localhost:27017/liga-master';
 } else {
-    urlDB = 'mongodb://liga-master-user:liga123456@ds035004.mlab.com:35004/liga-master';
+    urlDB = process.env.MONGO_URI;
 }
 
 process.env.URLDB = urlDB;
